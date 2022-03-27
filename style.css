@@ -67,3 +67,8 @@ main {
 .centredimage {
   text-align: center;
 }
+
+#profileimages img {
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+}
