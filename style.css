@@ -1,18 +1,39 @@
 body {
     background-color: #93C8E5;
-    color: #f4f4f4;
+    color: #FFFFFF;
     font-family: 'Nunito Sans', sans-serif;
 }
 
 a {
-    color: #93cbc3;
+    color: #EEAF10;
+}
+
+h1 {
+    color: #E7AF53;
+    font-weight: lighter;
+    font-size: 40px
+}
+
+h2 {
+    color: #F1E299;
+    font-weight: lighter;
+    font-size: 30px
+}
+
+h3 {
+    color: #F1E299;
+    font-weight: lighter;
+}
+
+h4 {
+    color: #F1E299;
+    font-weight: lighter;
 }
 
 header {
 
-    background-color: #FFC357;
-    width: 800px;
-
+    background-color: #000E3A;
+    width: 1000px;
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
@@ -20,23 +41,29 @@ header {
 }
 
 main {
-    background-color: #578BFF;
-    width: 800px;
+    background-color: #1163A7;
+    width: 1000px;
     padding: 25px;
-
     margin-left: auto;
     margin-right: auto;
 }
 
-
-#sneakers {
-	width: 20%;
-	margin-right: 0px;
-}
-
-#sneakers img {
+#introimages img {
 	width: 100%;
 	height: auto;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.centredimage {
+  text-align: center;
 }
