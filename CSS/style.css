@@ -1,5 +1,5 @@
 body {
-    background-color: #333;
+    background-color: #93C8E5;
     color: #f4f4f4;
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -10,9 +10,8 @@ a {
 
 header {
 
-    background-color: #142809;
+    background-color: #FFC357;
     width: 800px;
-    border: solid 3px black;
 
     padding: 25px;
     margin-left: auto;
@@ -21,17 +20,17 @@ header {
 }
 
 main {
-    background-color: #142809;
+    background-color: #578BFF;
     width: 800px;
     padding: 25px;
-    border: solid 3px silver;
+
     margin-left: auto;
     margin-right: auto;
 }
 
 
 #sneakers {
-	width: 25%;
+	width: 20%;
 	margin-right: 0px;
 }
 
